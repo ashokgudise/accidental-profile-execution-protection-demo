@@ -4,11 +4,9 @@ import java.net.InetAddress
 import kotlin.experimental.and
 import kotlin.experimental.or
 
-
 class DemoUtil {
 
     companion object{
-
 
         fun isIPInRange(ip: String, range: String): Boolean {
             val ipRangeResult = calculateIPRange(range)

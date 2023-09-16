@@ -1,7 +1,6 @@
 package com.ashok.demos.accidentalprofileexecutionprotectiondemo.config
 
 import com.ashok.demos.accidentalprofileexecutionprotectiondemo.util.DemoUtil
-import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent
 import org.springframework.context.ApplicationListener
 import org.springframework.util.StringUtils

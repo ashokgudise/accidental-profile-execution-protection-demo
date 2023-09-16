@@ -11,6 +11,5 @@ class AccidentalProfileExecutionProtectionDemoApplication
 fun main(args: Array<String>) {
     runApplication<AccidentalProfileExecutionProtectionDemoApplication>(*args)
 }
-
 @Bean
 fun profileConfigEventListener(): ProfileConfigEventListener? = ProfileConfigEventListener()
