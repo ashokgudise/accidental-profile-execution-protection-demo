@@ -1,1 +1,13 @@
 
+
+spring:
+  profiles:
+    active:
+      - prod
+
+app:
+  welcome-message: Welcome to Default - Profile Message
+
+logging:
+  level:
+    root: debug
