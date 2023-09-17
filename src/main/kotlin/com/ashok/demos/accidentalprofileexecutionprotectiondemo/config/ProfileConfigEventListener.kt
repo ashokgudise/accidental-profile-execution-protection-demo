@@ -35,9 +35,10 @@ class ProfileConfigEventListener :
 
                     System.err.println("Value of PROD_IP_RANGE Given: $ipRange and Your IP Address is: $hostIp")
 
+                    System.err.println("Production profile is active. Aborting application startup.")
+
                     System.exit(1) // Terminate the application
 
-                    System.err.println("Production profile is active. Aborting application startup.")
                 }
 
                 println("All Set to Run your App in Prod")
